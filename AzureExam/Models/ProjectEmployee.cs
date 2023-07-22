@@ -15,6 +15,7 @@ namespace DMAWS_T2203E_PhamDuyHung.Models
             get;
             set;
         }
+        [Required]
         public string Tasks
         {
             get;
