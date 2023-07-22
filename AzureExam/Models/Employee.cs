@@ -10,16 +10,20 @@ namespace DMAWS_T2203E_PhamDuyHung.Models
             get;
             set;
         }
+        [Required]
+        [StringLength(150, MinimumLength = 2)]
         public string EmployeeName
         {
             get;
             set;
         }
+        [Required]
         public DateTime EmployeeDOB
         {
             get;
             set;
         }
+        [Required]
         public string EmployeeDepartment
         {
             get;

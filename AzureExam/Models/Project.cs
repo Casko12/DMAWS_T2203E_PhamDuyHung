@@ -10,11 +10,14 @@ namespace DMAWS_T2203E_PhamDuyHung.Models
             get;
             set;
         }
+        [Required]
+        [StringLength(150, MinimumLength = 3)]
         public string ProjectName
         {
             get;
             set;
         }
+        [Required]
         public DateTime ProjectStartDate
         {
             get;
@@ -24,7 +27,7 @@ namespace DMAWS_T2203E_PhamDuyHung.Models
         {
             get;
             set;
-        }
+        } 
         public virtual ICollection<ProjectEmployee> ProjectEmployees
         {
             get;
