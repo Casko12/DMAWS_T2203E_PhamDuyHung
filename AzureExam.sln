@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureExam", "AzureExam\AzureExam.csproj", "{92A78BCD-0C51-484E-85FF-00D432488DE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMAWS_T2203E_PhamDuyHung", "AzureExam\DMAWS_T2203E_PhamDuyHung.csproj", "{92A78BCD-0C51-484E-85FF-00D432488DE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
